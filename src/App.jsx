@@ -1,8 +1,8 @@
 import { Routes,Route } from "react-router-dom"
 import { useState } from "react"
 import Landingpage from "./components/Landingpage"
-import SignIn from "./components/Signin"
-import SignUp from "./components/Signup"
+import SignIn from "./components/SignIn" // just did Signin to SignIn because i am in linux
+import SignUp from "./components/SignUp" // just did Signup to SignUp because i am in linux
 import Dashboard from "./components/Dashboard"
 import PlatformAnalysis from "./components/PlatformAnalysis"
 function App() {
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App
+
